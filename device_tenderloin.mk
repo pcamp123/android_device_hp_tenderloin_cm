@@ -213,7 +213,7 @@ PRODUCT_COPY_FILES += \
     device/hp/tenderloin/configs/media_codecs.xml:system/etc/media_codecs.xml \
     device/hp/tenderloin/vold.fstab:system/etc/vold.fstab \
     device/hp/tenderloin/makemulti.sh:makemulti.sh \
-    device/hp/tenderloin/prebuilt/boot/moboot.splash.CyanogenMod.tga:moboot.splash.CyanogenMod.tga
+    device/hp/tenderloin/prebuilt/boot/moboot.splash.Carbon.tga:moboot.splash.Carbon.tga
 
 $(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
 $(call inherit-product, build/target/product/full_base.mk)
