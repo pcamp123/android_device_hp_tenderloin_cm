@@ -263,9 +263,8 @@ static int path_apply(struct audio_route *ar, struct mixer_path *path)
 				);
 
 
-/*Commenting out to test building*/
-/*		mixer_ctl_set_multivalue(ctl, path->setting[i].ctl_vals,
-				path->setting[i].value); */
+		mixer_ctl_set_multivalue(ctl, path->setting[i].ctl_vals,
+				path->setting[i].value); 
 #endif
        	ar->mixer_state[j].ctl_vals = path->setting[i].ctl_vals;
     }
